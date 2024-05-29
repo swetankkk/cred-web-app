@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'GilroyExtraBold';
+	src: url('./font/Gilroy-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GilroyLight';
+	src: url('./font/Gilroy-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'PPCirckaBold';
+	src: url('./font/PPCirka-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'PPCirckaLight';
+	src: url('./font/PPCirka-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'PPCirckaVariable';
+	src: url('./font/PPCirka-Variable.ttf') format('truetype');
+}

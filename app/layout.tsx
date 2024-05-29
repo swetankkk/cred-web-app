@@ -1,8 +1,14 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import Gilroy from 'next/font/local';
 import './globals.css';
+import './fonts.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const gilroy = Gilroy({
+	src: [
+		{ path: './font/Gilroy-Light.otf' },
+		{ path: './font/Gilroy-ExtraBold.otf' },
+	],
+});
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -16,7 +22,7 @@ export default async function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>{children}</body>
+			<body className={gilroy.className}>{children}</body>
 		</html>
 	);
 }
