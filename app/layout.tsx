@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Gilroy from 'next/font/local';
 import './globals.css';
 import './fonts.css';
+import { cn } from '@/lib/utils';
 
 const gilroy = Gilroy({
 	src: [

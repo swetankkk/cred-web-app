@@ -8,7 +8,7 @@ export default function SplashScreen() {
 	return (
 		<div
 			className={
-				'flex flex-col font-semibold justify-center items-center h-dvh bg-[#0d0d0d] font-gilroy-light text-white'
+				'flex flex-col font-semibold justify-center items-center h-dvh  font-gilroy-light '
 			}
 		>
 			<Image src={`/cred.svg`} alt='Cred Logo' width={60} height={60} />
