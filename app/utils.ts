@@ -1,3 +1,4 @@
+import tw from 'tailwindcss';
 export const delay = (ms: number) =>
 	new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -61,17 +62,17 @@ export const generateTextStyle = (
 
 	const letterSpacing = getLetterSpacing(type, fontSize, fontWeight);
 
-	return css`
-		font-size: ${fontSize}px;
-		font-style: normal;
-		font-weight: ${fontWeight};
-		line-height: ${Math.round(fontSize * LINE_HEIGHT_MULTIPLIER[type])}px;
-		letter-spacing: ${letterSpacing}px;
-		color: ${color ?? ''};
-		${type === FontType.CAPS
-			? css`
-					text-transform: uppercase;
-			  `
-			: ''}
-	`;
+	const textStyle = tw(
+		`font-size: ${fontSize}px;` +
+			`font-weight: ${fontWeight};` +
+			`line-height: ${Math.round(fontSize * LINE_HEIGHT_MULTIPLIER[type])}px;` +
+			`letter-spacing: ${letterSpacing}px;` +
+			`color: ${color ?? ''};` +
+			`font-style: normal;` +
+			type ===
+			FontType.CAPS
+			? `text-transform: uppercase;`
+			: ''
+	);
+	return textStyle;
 };

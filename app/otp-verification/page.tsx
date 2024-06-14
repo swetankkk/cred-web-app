@@ -54,12 +54,11 @@ export default function otpVerification() {
 								<span className='underline text-black'>privacy policy</span>
 							</p>
 						</div>
-						<Link href='/otp-verification' className=''>
+						<Link href='/home' className=''>
 							<Button
 								className='max-w-52  rounded-none  text-foreground font-gilroy-extra-bold  font-light 
 						 
 						'
-								variant='secondary'
 							>
 								Proceed &nbsp; <Pointer />
 							</Button>

@@ -1,0 +1,27 @@
+<svg width="95" height="116" viewBox="0 0 95 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_9418_2914" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="95" height="116">
+<rect width="95" height="116" fill="#161616"/>
+</mask>
+<g mask="url(#mask0_9418_2914)">
+<g opacity="0.2">
+<mask id="mask1_9418_2914" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="-47" width="173" height="160">
+<g opacity="0.7">
+<ellipse rx="83.0537" ry="49.8323" transform="matrix(-0.830063 -0.557669 -0.557669 0.830063 78.7292 50.0767)" stroke="white" stroke-width="0.446526" stroke-miterlimit="10" stroke-linejoin="round"/>
+<ellipse rx="83.0537" ry="49.8323" transform="matrix(-0.830063 -0.557669 -0.557669 0.830063 84.1472 42.0108)" stroke="white" stroke-width="0.446526" stroke-miterlimit="10" stroke-linejoin="round"/>
+<ellipse rx="83.0537" ry="49.8323" transform="matrix(-0.830063 -0.557669 -0.557669 0.830063 89.5651 33.9464)" stroke="white" stroke-width="0.446526" stroke-miterlimit="10" stroke-linejoin="round"/>
+<ellipse rx="83.0537" ry="49.8323" transform="matrix(-0.830063 -0.557669 -0.557669 0.830063 95.7019 24.814)" stroke="white" stroke-width="0.446526" stroke-miterlimit="10" stroke-linejoin="round"/>
+<ellipse rx="83.0537" ry="49.8323" transform="matrix(-0.830063 -0.557669 -0.557669 0.830063 101.839 15.6807)" stroke="white" stroke-width="0.446526" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+</mask>
+<g mask="url(#mask1_9418_2914)">
+<rect x="58.6348" y="-89.4595" width="189.725" height="167.797" transform="rotate(33.8947 58.6348 -89.4595)" fill="url(#paint0_linear_9418_2914)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_9418_2914" x1="128.232" y1="-75.1586" x2="128.232" y2="78.3377" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
