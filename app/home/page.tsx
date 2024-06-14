@@ -3,7 +3,7 @@ import { Pointer } from '@/components/ui/pointer';
 import Bills from '@/app/images/bills.svg';
 import Image from 'next/image';
 import { RiBillLine } from 'react-icons/ri';
-import Garage from '@/app/images/Garage.jpeg';
+import Garage from '@/app/images/garage.jpeg';
 import Travel from '@/app/images/travel.jpeg';
 import Store from '@/app/images/store.jpeg';
 import Safety from '@/app/images/safety.jpeg';
@@ -120,7 +120,7 @@ export default function home() {
 								<Image alt='car' src={Garage} height={300} />
 							</div>
 							<div>
-								<Image alt='travel 44' src={Travel} height={300}></Image>
+								<Image alt='travel' src={Travel} height={300}></Image>
 							</div>
 							<div>
 								<Image src={Store} alt='store' height={300}></Image>
