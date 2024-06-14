@@ -1,18 +1,18 @@
 import { Button } from '@/components/ui/button';
 import { Pointer } from '@/components/ui/pointer';
-import Bill from '@/assets/bills.svg';
+import Bills from '@/app/images/bills.svg';
 import Image from 'next/image';
 import { RiBillLine } from 'react-icons/ri';
-import Garage from '@/assets/Garage.jpeg';
-import Travel from '@/assets/travel.jpeg';
-import Store from '@/assets/store.jpeg';
-import Safety from '@/assets/safety.jpeg';
-import Pay from '@/assets/pay.png';
-import Bills from '@/assets/bills.png';
-import Shopping from '@/assets/shopping.png';
-import Motor from '@/assets/motor.png';
-import View_All from '@/assets/view-all.png';
-import Long_Right_Arrow from '@/assets/ic_right_arrow_long.svg';
+import Garage from '@/app/images/Garage.jpeg';
+import Travel from '@/app/images/travel.jpeg';
+import Store from '@/app/images/store.jpeg';
+import Safety from '@/app/images/safety.jpeg';
+import Pay from '@/app/images/pay.png';
+//import Bills from '@/app/images/bills.png';
+import Shopping from '@/app/images/shopping.png';
+import Motor from '@/app/images/motor.png';
+import View_All from '@/app/images/view-all.png';
+import Long_Right_Arrow from '@/app/images/ic_right_arrow_long.svg';
 
 export default function home() {
 	return (
