@@ -13,13 +13,23 @@ import Shopping from '@/app/images/shopping.png';
 import Motor from '@/app/images/motor.png';
 import View_All from '@/app/images/view-all.png';
 import Long_Right_Arrow from '@/app/images/ic_right_arrow_long.svg';
+import Profile from '@/app/images/profile_placeholder.png';
+import Cards from '@/app/images/cards.jpeg';
 
 export default function home() {
 	return (
 		<div className='flex '>
-			<div className='w-[25dvw] min-h-[100dvh] min-w-[20dvw] flex flex-col bg-[#121212]'>
-				<div>Profile</div>
-				<div>CREDIT CARDS</div>
+			<div className='w-[25dvw] min-h-[100dvh] min-w-[20dvw] flex flex-col bg-[#121212] self-center'>
+				<hr className='flex   border-white   rounded border-1 mt-8 border-x-0' />
+
+				<div className='flex  items-center'>
+					<Image src={Profile} alt='profile' height={40} /> <div>Home</div>
+				</div>
+				<div className='flex  items-center'>
+					<Image src={Cards} alt='cards' height={40} />
+					<div>CREDIT CARDS</div>
+				</div>
+				<hr className='flex   border-white  w-full self-center rounded border-1 ' />
 			</div>
 			<div className='bg-[#121212] min-h-screen min-w-[80dvw] font-thin '>
 				<div className='min-h-[10dvh] bg-black flex justify-center items-center'>
@@ -31,7 +41,7 @@ export default function home() {
 					</Button>
 				</div>
 				<div className='flex flex-col text-[#8A8A8A] text-sm min-h-[90dvh] bg-[#0D0D0D] space-y-4'>
-					<hr className='flex max-w-10  border-[#8A8A8A] border-solid w-full self-center rounded border-2 mt-4'></hr>
+					<hr className='flex max-w-10  border-[#8A8A8A] border-solid w-full self-center rounded border-2 mt-4' />
 					<div className='mb-6 ml-4'>
 						<div className=' text-sm mb-1'>Your Money</div>
 						<div className='flex'>

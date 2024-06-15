@@ -4,8 +4,8 @@ import { Checkbox } from '@/components/ui/checkbox';
 
 export function TncBox() {
 	return (
-		<div className=' flex justify-center '>
-			<div className='flex  max-w-52 pt-2'>
+		<div className=' flex  '>
+			<div className='flex   pt-2'>
 				<Checkbox id='terms1' />
 				{/*<div className='grid gap-1.5 leading-none'>
 				<label
