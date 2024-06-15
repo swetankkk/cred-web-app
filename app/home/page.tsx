@@ -15,20 +15,23 @@ import View_All from '@/app/images/view-all.png';
 import Long_Right_Arrow from '@/app/images/ic_right_arrow_long.svg';
 import Profile from '@/app/images/profile_placeholder.png';
 import Cards from '@/app/images/cards.jpeg';
+import Link from 'next/link';
 
 export default function home() {
 	return (
 		<div className='flex '>
-			<div className='w-[25dvw] min-h-[100dvh] min-w-[20dvw] flex flex-col bg-[#121212] self-center'>
+			<div className='w-[25dvw] min-h-[100dvh] min-w-[20dvw] flex flex-col bg-[#121212] self-center space-y-2'>
 				<hr className='flex   border-white   rounded border-1 mt-8 border-x-0' />
 
-				<div className='flex  items-center'>
+				<Link href='/home' className='flex  items-center space-x-2'>
 					<Image src={Profile} alt='profile' height={40} /> <div>Home</div>
-				</div>
-				<div className='flex  items-center'>
+				</Link>
+
+				<Link href='/cards' className='flex  items-center space-x-2'>
 					<Image src={Cards} alt='cards' height={40} />
 					<div>CREDIT CARDS</div>
-				</div>
+				</Link>
+
 				<hr className='flex   border-white  w-full self-center rounded border-1 ' />
 			</div>
 			<div className='bg-[#121212] min-h-screen min-w-[80dvw] font-thin '>
