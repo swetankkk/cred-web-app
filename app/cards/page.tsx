@@ -57,9 +57,9 @@ export default function cards() {
 							/>
 						</div>
 					</div>
-					<div className='mt-4'>Your Cards</div>
+					<div className='mt-4 '>Your Cards</div>
 				</div>
-				<hr></hr>
+				<hr className='border-[0.5px] '></hr>
 				<div className='flex flex-row space-x-4   px-4 mt-8'>
 					<Card />
 					<Card />

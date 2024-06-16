@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Card_Chip from '@/app/images/ic_onboarding_card_chip.webp';
 import Setting from '@/app/images/profile_settings_nudge.svg';
 import Long_Right_Arrow from '@/app/images/ic_right_arrow_long.svg';
+import Contactless from '@/app/images/contactless.svg';
 
 export default function Card() {
 	return (
@@ -9,7 +10,10 @@ export default function Card() {
 			<div className='flex flex-col bg-[#F08D32] aspect-video min-w-96 space-y-1 px-2 py-2 rounded-md'>
 				<div className=' text-sm '>ICICI bank</div>
 				<div>VISA XXXX 0000</div>
+				<div className='flex'>
 				<Image src={Card_Chip} alt='card chip' />
+				<Image src={Contactless} alt='contactless' height={40}/>
+				</div>
 			</div>
 			<div className='flex '>
 				<div className='bg-[#3D3D3D] mr-4 p-4'>
