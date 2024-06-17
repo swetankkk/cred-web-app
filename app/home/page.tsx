@@ -20,10 +20,10 @@ import NavigationPane from '@/components/NavigationPane';
 
 export default function home() {
 	return (
-		<div className='flex '>
+		<div className='flex h-screen'>
 			<NavigationPane />
 
-			<div className='bg-[#121212] min-h-screen min-w-[80dvw] font-thin '>
+			<div className='bg-[#121212] overflow-x-hidden overflow-y-scroll min-h-screen min-w-[80dvw] font-thin '>
 				<div className='min-h-[10dvh] bg-black flex justify-center items-center'>
 					<Button className='bg-[#3D3D3D] rounded-full '>
 						<div className='flex justify-between items-center space-x-8 min-width-64'>

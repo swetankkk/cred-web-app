@@ -7,13 +7,19 @@ import Contactless from '@/app/images/contactless.svg';
 export default function Card() {
 	return (
 		<div className='flex flex-col space-y-4'>
-			<div className='flex flex-col bg-[#F08D32] aspect-video min-w-96 space-y-1 px-2 py-2 rounded-md'>
-				<div className=' text-sm '>ICICI bank</div>
-				<div>VISA XXXX 0000</div>
-				<div className='flex'>
-				<Image src={Card_Chip} alt='card chip' />
-				<Image src={Contactless} alt='contactless' height={40}/>
+			<div className='flex flex-col bg-[#F08D32] aspect-video min-w-96 space-y-1 px-2 py-2 rounded-md justify-between'>
+				<div className='flex justify-between items-center'>
+					<div>
+						<div className=' text-sm  '>ICICI bank</div>
+						<div>VISA XXXX 0000</div>
+					</div>
+					<div>ICICI Bank</div>
 				</div>
+				<div className='flex'>
+					<Image src={Card_Chip} alt='card chip' height={40} className='' />
+					<Image src={Contactless} alt='contactless' height={30} />
+				</div>
+				<div>Name</div>
 			</div>
 			<div className='flex '>
 				<div className='bg-[#3D3D3D] mr-4 p-4'>
