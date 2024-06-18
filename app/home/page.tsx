@@ -23,7 +23,7 @@ export default function home() {
 		<div className='flex h-screen'>
 			<NavigationPane />
 
-			<div className='bg-[#121212] overflow-x-hidden overflow-y-scroll min-h-screen min-w-[80dvw] font-thin '>
+			<div className='bg-[#121212]  overflow-y-scroll min-h-screen mw-[80dvw] font-thin '>
 				<div className='min-h-[10dvh] bg-black flex justify-center items-center'>
 					<Button className='bg-[#3D3D3D] rounded-full '>
 						<div className='flex justify-between items-center space-x-8 min-width-64'>
@@ -36,9 +36,9 @@ export default function home() {
 					<hr className='flex max-w-10  border-[#8A8A8A] border-solid w-full self-center rounded border-2 mt-4' />
 					<div className='mb-6 ml-4'>
 						<div className=' text-sm mb-1'>Your Money</div>
-						<div className='flex'>
+						<div className='flex flex-wrap space-y-2 lg:space-y-0'>
 							<button className='flex  justify-between bg-[#3D3D3D] w-64 mx-4'>
-								<div className='px-2 '>CRED flash</div>
+								<div className='px-2 py-0.5'>CRED flash</div>
 								<div className='px-2 '> upgrade now &gt;</div>
 							</button>
 
@@ -54,14 +54,14 @@ export default function home() {
 						</div>
 					</div>
 					<div className='ml-4'>
-						<div className='flex justify-between max-w-72 mb-4'>
+						<div className='flex justify-between max-w-72 mb-4 '>
 							<div className='text-[#8A8A8A] text-sm '>UPCOMING BILLS</div>
-							<div className='text-white underline text-xs'> view all</div>
+							<div className='text-white underline text-xs mx-2'> view all</div>
 						</div>
-						<button className='flex px-2 py-2 justify-between items-center bg-white my-1 mx-4 w-64'>
-							<div>
-								<div className='px-2 text-black'>car insurance </div>
-								<div className='px-2'>XXXXXXXXXX</div>
+						<button className='flex  px-2 py-2 justify-between items-center bg-white my-1 mx-4 space-x-2'>
+							<div className='flex flex-wrap flex-col '>
+								<div className='lg:px-2 text-black'>car insurance </div>
+								<div className='lg:px-2'>XXXXXXXXXX</div>
 							</div>
 							<div>
 								<div className='px-2 mr-2 bg-black text-white p-1'>
@@ -73,7 +73,7 @@ export default function home() {
 					</div>
 					<div className='ml-4 mt-4 text-white'>
 						<div className='text-[#8A8A8A] text-sm '>EXPLORE CRED </div>
-						<div className='flex space-x-4 text-xs space-y-1'>
+						<div className='flex space-x-4 text-xs space-y-1 flex-wrap'>
 							<div className='flex flex-col items-center space-y-1'>
 								<Image alt='pay' src={Pay} height={50} />
 								<div className=''>pay contacts</div>
@@ -108,41 +108,43 @@ export default function home() {
 					<div className='flex flex-col ml-4   max-w-72'>
 						<div className='flex justify-between'>
 							<div className='text-[#8A8A8A] text-sm '>NEEDS ATTENTION</div>
-							<div className='text-white underline text-xs'>view all</div>
+							<div className='text-white underline text-xs mx-2'>view all</div>
 						</div>
-						<button className='flex items-center  px-2  bg-[#8A8A8A] text-white my-1'>
+						<button className='flex items-center  px-2 mr-4 bg-[#8A8A8A] text-white my-1'>
 							<div>set up a preferred account to get refunds instantly</div>{' '}
 							<Pointer />
 						</button>
 					</div>
 					<div className='ml-4 '>
 						<div className='text-[#8A8A8A] text-sm '>EXPLORE CLUB</div>
-						<div className='flex  space-x-6'>
-							<div>
-								<Image alt='car' src={Garage} height={300} />
+						<div className='flex flex-col lg:flex-row space-y-4  lg:space-x-6 lg:space-y-0 flex-wrap mr-4 '>
+							<div className='flex max-h-96'>
+								<Image alt='car' src={Garage} />
+							</div>
+							<div className=''>
+								<Image alt='travel' src={Travel}></Image>
 							</div>
 							<div>
-								<Image alt='travel' src={Travel} height={300}></Image>
-							</div>
-							<div>
-								<Image src={Store} alt='store' height={300}></Image>
+								<Image src={Store} alt='store'></Image>
 							</div>
 						</div>
 					</div>
-					<div className='ml-4 space-y-2'>
+					<div className='space-y-2 mx-4'>
 						<div className='text-[#8A8A8A] text-sm '>STAY SECURE</div>
-						<Image alt='safety' src={Safety} height={100} />
+						<Image alt='safety' src={Safety} height={100} className='' />
 					</div>
 					<div className='ml-4'>
 						<div className='text-[#8A8A8A] text-sm ml-4'>
 							WIN BIG WITH CRED COINS
 						</div>
 					</div>
-					<Image
-						src={Long_Right_Arrow}
-						alt='long right arrow'
-						className='fill-white stroke-white'
-					/>
+					<div className='pb-8 self-center'>
+						<Image
+							src={Long_Right_Arrow}
+							alt='long right arrow'
+							className='flex  '
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

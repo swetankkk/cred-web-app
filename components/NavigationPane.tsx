@@ -5,18 +5,18 @@ import Cards from '@/app/images/cards.jpeg';
 
 export default function NavigationPane() {
 	return (
-		<div className='flex flex-col  w-[20dvw] h-full bg-[#121212] self-center space-y-2'>
+		<div className='flex flex-col min-w-32 w-[20dvw] h-full bg-[#121212] self-center space-y-2 px-2 text-white'>
 			<hr className='border-white rounded border-1 mt-8 border-x-0' />
+			<div className='bg-[#121212]'>
+				<Link href='/home' className='flex  items-center space-x-2'>
+					<Image src={Profile} alt='profile' height={40} /> <div>Home</div>
+				</Link>
 
-			<Link href='/home' className='flex  items-center space-x-2'>
-				<Image src={Profile} alt='profile' height={40} /> <div>Home</div>
-			</Link>
-
-			<Link href='/cards' className='flex  items-center space-x-2'>
-				<Image src={Cards} alt='cards' height={40} />
-				<div>CREDIT CARDS</div>
-			</Link>
-
+				<Link href='/cards' className='flex  items-center space-x-2'>
+					<Image src={Cards} alt='cards' height={40} />
+					<div>CREDIT CARDS</div>
+				</Link>
+			</div>
 			<hr className='flex   border-white  w-full self-center rounded border-1 mb-8' />
 		</div>
 	);
