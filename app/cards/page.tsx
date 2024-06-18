@@ -34,7 +34,7 @@ export default function Cards() {
 					<div>SUMMARY ACROSS CARDS</div>
 					<div className='flex  space-x-4 mt-2'>
 						<div className='flex flex-col bg-[#3D3D3D]  space-y-1 px-2 py-2  '>
-							<div>₹</div>
+							<div className='font-denton-regular'>₹</div>
 							<div>total due</div>
 							<Image
 								src={Long_Right_Arrow}
@@ -43,7 +43,7 @@ export default function Cards() {
 							/>
 						</div>
 						<div className='flex flex-col bg-[#3D3D3D]  space-y-1 px-2 py-2 '>
-							<div>₹</div>
+							<div className='font-denton-regular'>₹</div>
 							<div>recent spends</div>
 							<Image
 								src={Long_Right_Arrow}
@@ -52,7 +52,7 @@ export default function Cards() {
 							/>
 						</div>{' '}
 						<div className='flex flex-col bg-[#3D3D3D]  space-y-1 px-2 py-2 '>
-							<div>₹</div>
+							<div className='font-denton-regular'>₹</div>
 							<div>card offers</div>
 							<Image
 								src={Long_Right_Arrow}
