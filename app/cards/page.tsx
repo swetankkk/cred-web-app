@@ -110,9 +110,9 @@ export default function Cards() {
 					>
 						Try Now
 					</Button>
-					<div>
+					<div className='flex flex-col space-y-4'>
 						<div className='mb-8'>Quick Actions</div>
-						<div className='flex flex-row space-x-4'>
+						<div className='flex flex-row space-x-4 flex-wrap'>
 							<QuickActionsCard
 								heading='tap to pay with your phone'
 								text='card payments are now cardless'
@@ -142,7 +142,7 @@ export default function Cards() {
 								text='reach out to us for any help'
 							/>
 						</div>
-						<div className='mb-8'>We support</div>
+						<div className='flex mb-8 self-center'>We support</div>
 					</div>
 				</div>
 			</div>

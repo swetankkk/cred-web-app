@@ -1,11 +1,25 @@
 @font-face {
-	font-family: 'GilroyExtraBold';
-	src: url('../assets/font/Gilroy-ExtraBold.otf') format('opentype');
+	font-family: 'GilroyBold';
+	src: url('../assets/font/gilroy/Gilroy-Bold.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'GilroyLight';
-	src: url('../assets/font/Gilroy-Light.otf') format('opentype');
+	font-family: 'GilroyMedium';
+	src: url('../assets/font/gilroy/Gilroy-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GilroyRegular';
+	src: url('../assets/font/gilroy/Gilroy-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'GilroyExtraBold';
+	src: url('../assets/font/gilroy/Gilroy-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'GilroySemiBold';
+	src: url('../assets/font/gilroy/Gilroy-SemiBold.otf') format('opentype');
 }
 
 @font-face {
@@ -21,4 +35,55 @@
 @font-face {
 	font-family: 'PPCirckaVariable';
 	src: url('../assets/font/PPCirka-Variable.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'DentonBold';
+	src: url('../assets/font/denton/Denton-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'DentonLight';
+	src: url('../assets/font/denton/Denton-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'DentonMedium';
+	src: url('../assets/font/denton/Denton-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'DentonRegular';
+	src: url('../assets/font/denton/Denton-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'DentonThin';
+	src: url('../assets/font/denton/Denton-Thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'PPCirckaVariable';
+	src: url('../assets/font/PPCirka-Variable.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'OverpassMonoBold';
+	src: url('../assets/font/overpass_mono/OverpassMono-Bold.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('../assets/font/roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('../assets/font/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CredSymbols';
+	src: url('../assets/font/cred_symbols.ttf') format('truetype');
 }

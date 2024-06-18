@@ -5,7 +5,7 @@ import './fonts.css';
 import { cn } from '@/lib/utils';
 
 const gilroy = Gilroy({
-	src: [{ path: '../assets/font/Gilroy-Light.otf' }],
+	src: [{ path: '../assets/font/gilroy/Gilroy-Regular.otf' }],
 });
 
 export const metadata: Metadata = {
