@@ -9,12 +9,18 @@ export default function QuickActionsCard({
 	text: string;
 }) {
 	return (
-		<div className='flex space-x-4 min-w-60'>
-			<div>
+		<div className='flex flex-row flex-grow space-x-2 justify-between items-center w-full lg:w-52 h-10 '>
+			<div className='flex flex-col   '>
 				<div>{heading}</div>
-				<div className='text-xs'>{text}</div>
+				<div className='text-xs text-primary'>{text}</div>
 			</div>
-			<Image src={Long_Right_Arrow} alt='long right arrow' />
+			<div className='flex self-end mr-4 pb-2'>
+				<Image
+					src={Long_Right_Arrow}
+					alt='long right arrow'
+					className='mr-2 self-end'
+				/>
+			</div>
 		</div>
 	);
 }
